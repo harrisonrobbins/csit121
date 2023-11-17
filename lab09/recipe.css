@@ -1,0 +1,128 @@
+body {
+	background-color: #A3866A;
+}
+
+p {
+	font-family: serif;
+	color: #ffff00;
+	text-shadow: 1.5px 1.5px 0.5px #000000;
+	max-width: 80%;
+	text-align: center;
+	margin: auto;
+}
+
+h1 {
+	color: darkred;
+	text-align: center;
+	width: 60%;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+h2 {
+	text-shadow: 2px 2px 5px yellow;
+	text-align: center;
+	max-width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+li {
+	font-family: sans-serif;
+	color: maroon;
+	font-style: italic;
+	max-width: 60%;
+	margin: auto;
+}
+
+.image {
+	max-height: 300px;
+	max-width: 580px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+main {
+	max-width: 80%;
+	margin: auto;
+}
+
+nav {
+	margin-left: 20px;
+	margin-right: 100px;
+	max-width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+footer {
+	margin-right: 50px;
+	margin-top: 30px;
+}
+
+#wrapper { 
+	width: 60%;
+	background-color: #ff0033;
+	margin: auto;
+}
+
+img {
+	width: 80%;
+	max-width: 80%;
+}
+
+.nutrition {
+	border-collapse: collapse;
+	margin: auto;
+	font: 1em;
+	width: 30%;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px #ffff00;
+}
+
+.nutrition thead th {
+	background-color: #8a3324;
+}
+
+.nutrition thead th:nth-of-type(odd) {
+	text-align: left;
+}
+
+.nutrition th, .nutrition td {
+	border: 2px solid #ffff00;
+	padding: 6px 6px;
+}
+
+.nutrition tbody tr {
+	background-color: #d82a2a;
+}
+
+.nutrition tbody div[class*="indent"] {
+	text-indent: 20px;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	color: #c0ff00;
+}
+
+#form {
+	background-color: #9900cc;
+	max-width: 60%;
+	text-align: center;
+	margin: auto;
+}
+
+.multimodal {
+	display: flex;
+	justify-content: center;
+}
+
+a {
+	font-family: serif;
+	color: #ffff00;
+	max-width: 80%;
+	text-align: center;
+}

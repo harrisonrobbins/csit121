@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Favorite Recipe</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="recipe.css">
+</head>
+<div id="wrapper">
+    <header>
+      <h1>Cheeseburger Recipe</h1>
+    </header>
+    <nav>
+      <img src="images/five_guys_burger_w_fries.jpg" alt="A cheeseburger with fries from Five Guys. Image taken by William F. Yurasko on flickr.">
+    <br>
+    <img class="image" src="images/Cheeseburger.jpg" alt="A cheeseburger with lettuce.">
+    </nav>
+    <main>
+    <h2>How to Make a Cheeseburger</h2>
+  <p>You'll need the following ingredients:</p>
+  <ul>
+  <li>Cheese (your choice on which kind you use)</li>
+  <li>Beef (at least 20% fat to ensure juiciness)</li>
+  <li>Two slices of bread <b>or</b> one bun</li>
+  </ul>
+  <p>How to prepare a cheeseburger:</p>
+  <ol>
+    <li>Preheat your grill or oven top. It's recommended that you heat your burger to 160-165°F.</li>
+    <li>When the grill/oven is heated enough, place the beef patty onto the pan.</li>
+    <li>After around seven minutes, flip the patty over. You may have to wait longer depending on the size of the patty.</li>
+    <li>When the burger is close to ready, place a slice of cheese onto the patty.</li>
+    <li>Once the patty is heated to preference on both sides, remove it from the pan and place it onto the bread.</li>
+    <li>Turn off the grill/oven and set the pan aside to cool down.</li>
+  </ol>
+  </main>
+  <footer>
+    <p>I can't really explain why I like burgers so much, I just do. It's probably something to do with the juicy taste that hits different compared to other food, but I couldn't tell you definitively.</p>
+    <br>
+    <p>Below is a table showcasing the nutrition facts of a little cheeseburger at Five Guys (including bun and cheese, excluding other toppings like ketchup or onions):</p>
+    <br>
+    <table class="nutrition">
+      <thead>
+        <tr>
+          <th>Calories</th>
+          <th>612</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>Total Fat</b></td>
+          <td>32g</td>
+        </tr>
+        <tr>
+          <td><div class="indent">Saturated Fat</div></td>
+          <td>15g</td>
+        </tr>
+        <tr>
+          <td><div class="indent">Trans Fat</div></td>
+          <td>1g</td>
+        </tr>
+        <tr>
+          <td><b>Cholesterol</b></td>
+          <td>85mg</td>
+        </tr>
+        <tr>
+          <td><b>Sodium</b></td>
+          <td>690mg</td>
+        </tr>
+        <tr>
+          <td><b>Total Carbohydrate</b></td>
+          <td>39g</td>
+        </tr>
+        <tr>
+          <td><div class="indent">Sugars</div></td>
+          <td>8g</td>
+        </tr>
+        <tr>
+          <td><b>Protein</b></td>
+          <td>27g</td>
+        </tr>
+      </tbody>
+    </table>
+    <br><br>
+    <div class="form" id="form">
+      <form action="form_redirect.html" method="get" target="_blank">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" required="required" placeholder="John">
+        <br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" required="required" placeholder="Johnson">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required="required" placeholder="johnjohnson@sitename.tld">
+        <br>
+        <br>
+        <label>What toppings do you like to put on your burger? Select all that apply.</label>
+        <br>
+        <input type="checkbox" id="chs" name="toppings" value="Cheese">
+        <label for="chs">Cheese</label>
+        <br>
+        <input type="checkbox" id="oni" name="toppings" value="Onion">
+        <label for="oni">Onion</label>
+        <br>
+        <input type="checkbox" id="tmt" name="toppings" value="Tomato">
+        <label for="tmt">Tomato</label>
+        <br>
+        <input type="checkbox" id="ltc" name="toppings" value="Lettuce">
+        <label for="ltc">Lettuce</label>
+        <br>
+        <input type="checkbox" id="bcn" name="toppings" value="Bacon">
+        <label for="bcn">Bacon</label>
+        <br>
+        <input type="checkbox" id="ktc" name="toppings" value="Ketchup">
+        <label for="ktc">Ketchup</label>
+        <br>
+        <input type="checkbox" id="mst" name="toppings" value="Mustard">
+        <label for="mst">Mustard</label>
+        <br>
+        <input type="checkbox" id="bbq" name="toppings" value="BBQ Sauce">
+        <label for="bbq">BBQ Sauce</label>
+        <br>
+        <input type="checkbox" id="myn" name="toppings" value="Mayonnaise">
+        <label for="myn">Mayonnaise</label>
+        <br>
+        <br>
+        <label>Would you like to subscribe to the newsletter?</label>
+        <br>
+        <input type="radio" id="y" name="subscription" value="Yes" required="required">
+        <label for="y">Yes</label>
+        <br>
+        <input type="radio" id="n" name="subscription" value="Yes" required="required">
+        <label for="n">No</label>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+    </div>
+    <br>
+    <br>
+    <p>Check out this fun fact about a burger promotion that failed due to people's poor literacy skills.</p>
+    <br>
+    <div class="multimodal">
+    <audio controls>
+      <source src="audio/burger.mp3" type="audio/mpeg">
+        ...or not, I guess. It seems your browser doesn't support the audio element that was supposed to show up here.
+    </audio>
+    </div>
+    <br>
+    <p>Also, <a href="https://awrestaurants.com/blog/aw-third-pound-burger-fractions">here's</a> a link to the A&W page I got this info from.</p>
+    <br>
+  </footer>
+  </div>
+</html>
