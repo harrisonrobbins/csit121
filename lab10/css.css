@@ -1,0 +1,25 @@
+body {
+	font-size: 14px;
+	background-color: #ff8000;
+	color: #0040ff;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	background-color: #c00000;
+}
+
+p {
+	font-family: monospace;
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h2 {
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}

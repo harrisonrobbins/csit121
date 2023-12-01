@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>XML and JavaScript</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css.css">
+</head>
+<div id="wrapper">
+	&nbsp;
+	<h2>What is XML?</h2>
+	<p>XML stands for e<b>X</b>tensible <b>M</b>arkup <b>L</b>anguage whose purpose is to store and transport data while being able to be read by both humans and machines.</p>
+	<h2>How is XML used?</h2>
+	<p>XML doesn't carry information about how to be displayed, and thus is used to separate the data from the presentation.</p>
+	<h2>What does XML look like? (provide an example)</h2>
+	<p>
+		XML code may look somewhat similar to HTML, but not quite exactly the same. XML elements must be properly nested, so for example, an italics tag inside a bold tag must be formatted like this:
+		<br><br>
+		&lt;b&gt;&lt;i&gt;This text contains text.&lt;&#47;i&gt;&lt;&#47;b&gt;
+		<br><br>
+		You can also write basically whatever for a tag name, whereas in HTML it's all pre-defined.
+		<br><br>
+		&lt;parent&gt;
+		<br>
+		&nbsp;&nbsp;&nbsp;&lt;child&gt;
+		<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;subchild&gt;This is a sentence.&lt;&#47;subchild&gt;
+		<br>
+		&nbsp;&nbsp;&nbsp;&lt;&#47;child&gt;
+		<br>
+		&lt;&#47;parent&gt;
+	</p>
+	<h2>What is JavaScript?</h2>
+	<p>JavaScript is the number one most popular programming language in the world and is (supposedly) easy to learn.</p>
+	<h2>How is JavaScript related to HTML and CSS?</h2>
+	<p>JavaScript serves distinctly different purposes from HTML and CSS, but they all work together to create a functioning web page.</p>
+	<h2>What are some common JavaScript elements, properties, methods, and functions? (provide at least 1 example of each)</h2>
+	<p>
+		JS doesn't have elements per se&#769; unless you refer to JavaScript HTML DOM Elements. Otherwise, you'd refer to them as objects, probably. One example of a JS object is something like arrays, though anything other than primitives can be or are objects.
+		<br>
+		JS properties can be written as either objectName.propertyName, objectName["propertyName"], or objectname[expressionName]. One example is the code <i>person.age = "20";</i>.
+		<br>
+		One example of a JS method is the different ways to get and set dates. For example, the method <i>setTime()</i> sets the number of milliseconds that have passed since January 1st, 1970.
+		<br>
+		JS functions are declared using the <i>function</i> keyword. One example of a JS function is the following code:
+		<br><br>
+		function <i>functionName(parameterA, parameterB)</i> {
+		<br>&nbsp;&nbsp;&nbsp;*insert code here*<br>
+		}
+	</p>
+	&nbsp;
+</body>
+</html>
