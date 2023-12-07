@@ -1,0 +1,224 @@
+body {
+	background-color: brown;
+}
+
+nav {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	width: 80%;
+	border: 3px solid black;
+}
+
+a:hover {
+	color: yellow;
+}
+
+.stats_A {
+	display: initial;
+}
+
+.stats_B {
+	display: none;
+}
+
+footer {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+div.list {
+	text-align: center;
+	font-size: 22px;
+}
+
+ul.list {
+	display: inline-block;
+	text-align: left;
+}
+
+h1 {
+	text-align: center;
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+h3 {
+	text-align: center;
+	font-style: italic;
+	max-width: 40%;
+	margin: auto;
+}
+
+form {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: center;
+}
+
+table {
+	border: 2px solid #a8a8a8;
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+th {
+	border-bottom: 1px dashed red;
+}
+
+th:not(th:nth-of-type(11)), td:not(td:nth-of-type(11)) {
+	border-right: 1px dashed red;
+}
+
+th, td {
+	padding: 10px;
+}
+
+.container {
+	font-size: 4vw;
+	background-color: #a8a8a8;
+	color: white;
+	width: 11em;
+	max-width: 80%;
+	height: 2em;
+	line-height: 2;
+	text-align: center;
+	font-family: monospace;
+	font-weight: bold;
+	cursor: pointer;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.container:nth-of-type(odd):hover {
+	background-color: blue;
+	color: red;
+	font-family: Papyrus;
+}
+
+.container:nth-of-type(even):hover {
+	background-color: purple;
+	color: black;
+	font-family: Brush Script MT;
+}
+
+.link {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.bono {
+	content: url("images/stevebono.jpg");
+	margin: auto;
+	width: 20%;
+}
+
+.hoyer {
+	content: url("images/brianhoyer.jpg");
+	margin: auto;
+	width: 30%;
+}
+
+.keenum {
+	content: url("images/casekeenum.jpg");
+	margin: auto;
+	width: 35%;
+}
+
+.peterson {
+	display: block;
+	margin: auto;
+	width: 40%;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+	h3 {
+		max-width: 80%;
+	}
+
+	h1 {
+		max-width: 80%;
+	}
+
+	nav {
+		width: 95%;
+		font-size: 5vw;
+	}
+
+	th, td {
+		font-family: Arial;
+		border-bottom: 1px dashed red;
+	}
+
+	th:nth-of-type(1) {
+		border-right: 1px dashed red;
+	}
+
+	.container {
+		font-size: 24px;
+		background-color: #a0a0a0;
+		color: blue;
+		min-width: 100%;
+		line-height: 2;
+		text-align: center;
+		font-family: serif;
+		cursor: pointer;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	footer {
+		width: 90%;
+	}
+
+	#wrapper {
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+	}
+
+	.bono, .hoyer, .keenum, .peterson {
+		width: 80%;
+	}
+
+	.stats_A {
+		display: none;
+	}
+
+	.stats_B {
+		display: initial;
+	}
+}
